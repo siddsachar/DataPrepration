@@ -1,0 +1,91 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VS Code settings
+.vscode/
+
+# Environment variables and secrets
+.env
+.env.*
+
+# Data and model artifacts
+*.h5
+*.ckpt
+*.pth
+*.pt
+*.npz
+*.npy
+*.onnx
+*.pb
+*.tflite
+*.mlmodel
+*.joblib
+*.pkl
+*.pickle
+*.csv
+*.tsv
+*.parquet
+*.feather
+*.db
+*.sqlite3
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Datasets and outputs
+/data/
+/output/
+/results/
+*.zip
+*.tar.gz
+*.tar
+*.gz
+*.rar
+*.7z
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Python virtual environments
+venv/
+.env/
+ENV/
+
+# Ignore all_books.txt and other generated files
+all_books.txt
+
+# Ignore Hugging Face cache and datasets
+.cache/
+datasets_cache/
+
+# Ignore pip wheelhouse
+wheelhouse/
+
+# Ignore test outputs
+htmlcov/
+.coverage
+coverage.xml
+
+# Ignore notebook execution outputs
+*.nbconvert.ipynb
+
+# Ignore Pyright and Pylance settings
+pyrightconfig.json
+
+# Ignore mypy cache
+.mypy_cache/
+
+# Ignore pytest cache
+.pytest_cache/
+
+DataPreparation.html
